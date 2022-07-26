@@ -19,8 +19,8 @@ al=sim(net_AND , Ent_AND );
 
 
 Ent_OR = [ 0 0 1 1 ; %Entrada 1
-            0 1 0 1 ]; %Entrada 2
-Obj_OR = [ 0 0 0 1 ] ; %Objetivo
+           0 1 0 1 ]; %Entrada 2
+Obj_OR = [ 0 1 1 1 ] ; %Objetivo
 
 net_OR = newp (Ent_OR , Obj_OR ); 
 net_OR = init( net_OR); 
